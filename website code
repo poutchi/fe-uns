@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Description test. Fire emblem: Untold Story is a fan-made fire emblem game">
+    <meta name="keywords" content="Fire emblem: Untold story,Fire emblem,FE,FE-UNS,fe-uns">
+    <meta property="og:title"content="Fire Emblem: Untold story" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://fe-uns.com" />
+    <meta property="og:image" content="website/fe/ico.jpg" /> <!-- Icon file -->
+    <meta property="og:description" content="Description test. Fire emblem: Untold Story is a fan-made fire emblem game" />
+    <meta property="og:site_name" content="Fire Emblem: Untold story" />
+
+    <meta http-equiv="Pragma" content="Nn-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="86400">
+
+
+<title>Fire Emblem: Untold Story</title>
+    <link href"layout.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/changethumb.js"></script>
+    <!---Following script to add if media player (music player) --->
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src=""></script>
+    
+<script type="text/javascript">
+    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+        location.href= 'sp/';
+    }
+</script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-28760245-4', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript" src="js/action.js"></script>
+    <!-- <link href="lightbox.css" rel="stylesheet" /> <script type="text/javascript" src="js/lightbox.js"></script> <link href="shadowbox.css" rel="stylesheet" /> <script type="text/javascript" src="js/shadowbox.js" charset="UTF-8"></script> -->
+    <link href="prettyPhoto.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js" charset="UTF-8"></script>
+    
+    <link href="flexslider.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.flexslider-min.js" charset="UTF-8"></script>
+    
+    
+
+<script type="text/javascript" src="js/action2.js"></script>
+<script type="text/javascript" src="js/action3.js"></script>
+<script type="text/javascript" src="js/scrolltop.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+});
+</script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <!--**** jPlayer ****-->
+    <div id="jp_container_N" class="jp-videojp-video-270p">
+        <div id="jquery_jplayer_N" class="jp-jplayer"></div>
+        <div class="jp-playlist">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <!--**** jPlayer ****-->
+    
+    
+<!-- header -->
+    <div id="header_container">
+        <div id="header">
+    <div id="loading_back">
+            <div class="loading box">
+                <div class="loading_img"><img src="img/loading.png"></div>
+                <div class="loading_title"></div>
+                <div class="loading_text"><span class"=loading_text_s">0</span> % </div>
+            </div>
+    </div>
+            
+                <div class="cts">
+                <!-- If new, remove txt grad -->
+                    <div class="menu_box" style="background-color:#FFF; z-index:2; position:absolute;">
+                        <div class="menu_simple"><img src="img/menu_simple.png"></div>
+                        <div class="menu_top"><img src="img/menu_top_rollout.png" class="thumb3"></div>
+                        <div class="menu_simple"><img src="img/menu_simple.png"></div>
+                        <div class="menu_intro"><!--<div class="menu_newmark"><img src="img/menu_newmark.png"></div>--><img src="img/menu_intro_rollout.png" class="thumb3"></div>
+                        <div class="menu_simple"><img src="img/menu_simple.png"></div>
+                        <div class="menu_story"><!--<div class="menu_newmark"><img src="img/menu_newmark.png"></div>--><img src="img/menu_story_rollout.png" class="thumb3"></div>
+                        <div class="menu_simple"><img src="img/menu_simple.png"></div>
+                        <div class="menu_chara"><!--<div class="menu_newmark"><img src="img/menu_newmark.png"></div>--><img src="img/menu_chara_rollout.png" class="thumb3"></div>
+                        <div class="menu_simple"><img src="img/menu_simple.png"></div>
+                        <div class="menu_gameplay"><!--<div class="menu_newmark"><img src="img/menu_newmark.png"></div>--><img src="img/menu_gameplay_rollout.png" class="thumb3"></div>
+                </div>
+                        <div class="tumblr_icon"><a href="http://fe-uns.tumblr.com" target="_blank"><img src="img/tumblr_icon.png" class="thumb3"></a></div>
+                        <!-- Youtube channel ??
+                        <div class="youtube_icon><a href="http://youtube.com/ / " target="_blanck"<>img src="img/youtube_icon.png" class="thumb3></a></div> -->
+                        
+                        
+                <div class="menu_sub_box" style="">
+                    <div class="menu_sub" id="menu_sub_intro" style="">
+                            <div style="width:0px; float:left; height:10px;"></div>
+                            <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_intro1" class="subsub">
+                            <img src="img/menu_sub_intro1_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_intro2" class"=subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_intro2_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_intro3" class"=subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_intro3_rollout.png" class="thumb3">
+                        </div>
+                        <div class="menu_sub_bk"></div>
+                    </div>
+                    <div class="menu_sub" id="menu_sub_story" style"">
+                            <div style="width:0px; float:left; height:10px"></div>
+                            <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id"=menu_story1" class="subsub">
+                            <img src="img/menu_sub_story1_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_story2" class="subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_story2_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_story3" class="subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_story3_rollout.png" class="thumb3">
+                        </div>
+                        <div class="menu_sub_bk"></div>
+                    </div>
+                    <div class="menu_sub" id="menu_sub_chara" style"">
+                            <div style="width:0px; float:left; height:10px;"></div>
+                            <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id"=menu_chara1" class="subsub">
+                            <img src="img/menu_sub_chara1_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_chara2" class="subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_chara2_rollout.png" class="thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_chara3" class="subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_chara3_rollout.png" class"thumb3">
+                        </div>
+                        <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_chara4" class="subsub">
+                            <!--<div class="menu_sub_newmark"><img src="img/menu_sub_newmark.png"></div>-->
+                            <img src="img/menu_sub_chara4_rollout.png" class "thumb3">
+                        </div>
+                        <div class="menu_sub_bk"></div>
+                    </div>
+                    <div class="menu_sub" id="menu_sub_gameplay" style"">
+                            <div style="width:0px; float:left; height:10px;"></div>
+                            <div class="sub_simple"><img src="img/menu_sub_simple.png"></div>
+                        <div style="width:5px; float:left; height:10px;"></div>
+                        <div id="menu_gameplay1" class="subsub">
+                            <img src="img/menu_sub_gameplay1_rollout.png" class="thumb3">
+                        </div>
+                        <div class="menu_sub_bk"></div>
+                    </div>
+                </div>
+                
+                <div style="clear:both;"></div>
+                
+            </div>    
+        </div>
+    </div>
+<!-- header -->                    
+
+<!-- main -->
+<div id="exchange_box">
+
+<div id="pagetop"><img src="img/scroll_topbtn.png" width="70"></div>
+
+<!-- main -->
+<div id="top_main_container">
+    <div id="scroll_btn"><img src="img/top_scroll_btn.png"></div>
+    
+        <div style="position:relative; height:800px;">
+        <div class="mainlogo"></div>
+        <div class="outdate"></div>
+        <div class="datetext01"></div>
+        <div class="pickup_linkbanner??">
+            <a href="(banner style)">
+                        
+                        
+        </div>                
+    </div>
+    
+    <div style="position:relative; height:48px;">
+        <div class="container">
+                <div class="news_title"></div>
+            <div class="news_title"></div>
+            <div class="news_report"></div>
+            2015.08.06
+            </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div> 
+    </div>
+    
+<!-- banner -->
+<div style="height:5px;"></div>
+
+<div style="height:5px;"></div>
+
+<div style="position:relative; height:127px;">
+    <div style="height:20px;"></div>
+    <div class="catch"></div>
+</div>
+
+<div style="position:relative; height:92px;">
+    <div style="height:18px;"></div>
+    <div class="catch2"></div>
+</div>
+
+<div id="box_story">
+    <div style="position:relative; height:800px; z-index:1;" id="box_story1">
+        <div style="height:40px;"></div>
+        <div class="story_title"><img src="img/top_story_title.png"></div>
+        <div style="height:180px;"></div>
+        <div class="story_box1">
+            <div class="story_img01"><a href="img/top_story_zoom01" rel="prettyPhoto[gallery1]"><img src="img/top_story_img01.jpg"></a></div>
+            <div class="story_text01">
+Text.<br>
+text <br><br>
+
+text<br>
+text<br><br>
+
+text<br>
+text<br><br>
+
+text
+      
+            </div>
+            <div style="clear:both; height:6px;"></div>
+        </div>
+    </div>
+    
+    <div style="position:relative; height:3890px; z-index:1;" id="box_story2">
+            <div style="height:90px;"></div>
+        <div class="story_title02"><img src="img/top_story_title02.png"></div>
+        <div style="height:150px;"></div>
+        <div class="story02_catch01"><img src="img/top_story02_catch01.png"></div>
+        <div class="story02_text01"><img src="img/top_story02_text01.png"></div>
+        
+        <div style="height:10px;"></div>
+        
+        <div class="story02_imgbox01">
+            <div class="flexslider_story0201" style="width:735px; height:550px; left:135px; position: absolute;">
+                <div class="cnavigation_story0201">
+                    <div class="imgchange_btn01"><img src="img_top_imgchange_btn01.png" class="flex-prev"></div>
+                    <div class="imgchange_btn02"><img src="img_top_imgchange_btn02.png" class="flex-next"></div>
+                </div>   
+                
+                <ul class="slides">
+                <li id="s1" data-thumb="img/top_story02_img01a.jpg">
+                    <div class="img_container">
+                        <div class="imgbg">
+                            <div class="imgtitle01"><img src="img/top_story02_imgtitle01a.png"></div>
+                                <div class="imgarea"><a href="img/top_story02_zoom01a.jpg" rel="prettyPhoto[sto02_01]"><img src="img/top_story02_img01a.jpg"></a></div>
+                        </div>
+                        
+                         
+                            
+    
+        
+</div>
+
+
+</body>
+</html>    
